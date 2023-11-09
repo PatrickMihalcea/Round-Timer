@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poker Tournament Timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 id="level"></h1>
+    <div class="timer-container">
+        <div>
+            <div class="blindContainer">
+                <div class="blindTitle">Current SB</div>
+                <div id="current-small-blind" class="blind">$1</div>
+            </div>
+            <div class="blindContainer">
+                <div class="blindTitle">Current BB</div>
+                <div id="current-big-blind" class="blind">$2</div>
+            </div>
+        </div>
+        
+        <div class="timer">
+            <h1 id="timer">00:00</h1>
+        </div>
+
+        <div>
+            <div class="blindContainer">
+                <div class="blindTitle">Next SB</div>
+                <div id="next-small-blind" class="next-blind">$1</div>
+            </div>
+            <div class="blindContainer">
+                <div class="blindTitle">Next BB</div>
+                <div id="next-big-blind" class="next-blind">$1</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id="backButton">
+            <img id="backImage" src="back.png" alt="Back">
+        </button>
+        <button id="controlButton">
+            <img id="controlImage" src="pause.png" alt="Pause/Play">
+        </button>
+        <button id="fastForwardButton">
+            <img id="fastForwardImage" src="fastForward.png" alt="Fast Forward">
+        </button>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
