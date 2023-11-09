@@ -1,0 +1,1 @@
+A simple poker timer to track blinds and rounds for a tournament. Change the blinds.csv file to your desired blinds schedule and allow the timer to run. The back and forward buttons simply go backwards 1 round or forwards one round. You can change the round timer in the code.
